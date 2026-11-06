@@ -572,7 +572,7 @@ if st.session_state.get("analysed", False):
 
         st.metric(
             "Rang moyen non pondéré",
-            f"{mean:,.0f}"
+            f"{mean:.0f}"
         )
 
     else:
